@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Logo & Brand */}
         <div className="flex items-center space-x-4">
           <img
-            src="/smonk.png"
+            src="/albertII.png"
             alt="SpaceMonkey Logo"
             className="w-16 h-16 rounded-full object-cover border border-gray-300 shadow-sm"
           />
@@ -49,3 +49,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
