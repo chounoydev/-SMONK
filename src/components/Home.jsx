@@ -119,7 +119,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://x.com/"
+              href="https://x.com/Thedev2026"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-black px-7 py-3 rounded-xl font-bold shadow-lg transition-all"
@@ -144,4 +144,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
