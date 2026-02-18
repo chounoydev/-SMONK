@@ -133,7 +133,7 @@ const Home = () => {
         {/* RIGHT SIDE IMAGE */}
         <div className="flex justify-center animate-float">
           <img
-            src="/smonk.png"
+            src="/albertII.png"
             alt="SpaceMonkey"
             className="w-80 md:w-96 drop-shadow-[0_0_40px_rgba(168,85,247,0.8)]"
           />
@@ -144,3 +144,4 @@ const Home = () => {
 };
 
 export default Home;
+
