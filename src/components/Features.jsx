@@ -1,30 +1,30 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Users, ShieldCheck, Rocket, Gem, Sparkles } from "lucide-react";
+import { Users, Zap, Rocket, Gem, Sparkles } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
       title: "Community Powered",
       description:
-        "SpaceMonkey is built by the community, for the community. Every holder fuels growth, creativity, and long-term sustainability.",
+        "Built by the community, for the community. Every member contributes ideas, creativity, and shared direction to help shape the project.",
       icon: Users,
     },
     {
-      title: "Lightning Fast on Solana",
+      title: "Fast & Efficient on Solana",
       description:
-        "Powered by Solana for ultra-fast transactions, minimal fees, and a smooth trading experience designed for scale.",
-      icon: ShieldCheck,
+        "Developed on Solana to enable fast transactions, low fees, and a smooth on-chain experience accessible to everyone.",
+      icon: Zap,
     },
     {
-      title: "Viral Growth Strategy",
+      title: "Creative Growth",
       description:
-        "Aggressive meme campaigns, influencer partnerships, and community-driven marketing to dominate social platforms.",
+        "Driven by meme culture, storytelling, and community-led content to inspire organic engagement across social platforms.",
       icon: Rocket,
     },
     {
-      title: "Strong Tokenomics",
+      title: "Transparent Token Design",
       description:
-        "Fixed supply, locked liquidity, and transparent structure to ensure fairness, stability, and long-term value.",
+        "A fixed supply model with locked liquidity and transparent mechanics designed to promote fairness, clarity, and long-term sustainability.",
       icon: Gem,
     },
   ];
@@ -64,9 +64,7 @@ const Features = () => {
         {/* HEADER */}
         <div className="flex items-center justify-center gap-3 mb-4 text-purple-400">
           <Sparkles size={20} className="animate-pulse" />
-          <p className="tracking-widest font-semibold text-sm">
-            FEATURES
-          </p>
+          <p className="tracking-widest font-semibold text-sm">FEATURES</p>
         </div>
 
         <h2 className="text-5xl font-bold mb-6 text-white">
@@ -74,8 +72,8 @@ const Features = () => {
         </h2>
 
         <p className="text-gray-400 mb-20 max-w-2xl mx-auto">
-          A space-inspired memecoin powered by community, designed for virality,
-          and built for unstoppable momentum.
+          A space-inspired, community-driven memecoin blending creativity,
+          culture, and open collaboration.
         </p>
 
         {/* FEATURE CARDS */}
