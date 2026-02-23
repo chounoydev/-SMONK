@@ -1,5 +1,14 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Coins, Tag, Layers, Globe, Rocket, Sparkles, Percent, Pill } from "lucide-react";
+import {
+  Coins,
+  Tag,
+  Layers,
+  Globe,
+  Rocket,
+  Sparkles,
+  Percent,
+  Pill,
+} from "lucide-react";
 
 const Token = () => {
   const ref = useRef(null);
@@ -45,12 +54,12 @@ const Token = () => {
       icon: Globe,
     },
     {
-      label: "Taxes",
+      label: "Transaction Fees",
       value: "0% Buy / 0% Sell",
       icon: Percent,
     },
     {
-      label: "Launch",
+      label: "Launch Platform",
       value: "Pump.fun",
       icon: Pill,
     },
@@ -76,12 +85,13 @@ const Token = () => {
 
         {/* TITLE */}
         <h2 className="text-5xl font-extrabold mb-6 text-white tracking-tight">
-          Token Distribution
+          Token Overview
         </h2>
 
         <p className="text-gray-400 mb-14 max-w-xl mx-auto">
-          SpaceMonkey is built on Solana with a fixed supply, transparent structure,
-          and community-first design to ensure long-term sustainability.
+          SpaceMonkey ($SMONK) is built on Solana with a fixed total supply and a
+          transparent, community-first structure designed to support openness,
+          accessibility, and long-term sustainability.
         </p>
 
         {/* TOKEN CARD */}
