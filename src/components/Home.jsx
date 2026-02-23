@@ -37,6 +37,20 @@ const Home = () => {
       id="home"
       className="min-h-screen flex items-center pt-28 px-6"
     >
+      {/* Animations */}
+      <style>{`
+        @keyframes slowBlink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.5; }
+        }
+
+        @keyframes floatSpace {
+          0% { transform: translateY(0px); }
+          50% { transform: translateY(-15px); }
+          100% { transform: translateY(0px); }
+        }
+      `}</style>
+
       <div
         ref={ref}
         className={`max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center transition-all duration-1000 ease-out
@@ -44,9 +58,12 @@ const Home = () => {
       >
         {/* LEFT SIDE */}
         <div>
-          <span className="inline-flex items-center gap-2 bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-5">
+          <span
+            className="inline-flex items-center gap-2 bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-5"
+            style={{ animation: "slowBlink 3s ease-in-out infinite" }}
+          >
             <Rocket className="w-4 h-4" />
-            COMMUNITY POWERED
+            100% COMMUNITY DRIVEN
           </span>
 
           <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
@@ -55,11 +72,14 @@ const Home = () => {
           </h1>
 
           <p className="mt-6 text-lg text-gray-300 max-w-xl">
-            The first monkey who reached space is back — now as a memecoin.
-            SpaceMonkey combines cosmic adventure, viral meme energy, and a
-            community-driven mission to reach the moon. Join the movement, hodl
-            your $SMONK, and let’s launch beyond the stars.
-          </p>
+  The first monkey who reached space is back — now as a community-driven digital project.
+  SpaceMonkey blends cosmic adventure, creativity, and meme culture into a fun,
+  collaborative experience powered entirely by its community.
+</p>
+
+<p className="mt-2 text-sm text-gray-400">
+  Open-source mindset. Transparent development. Community-led direction.
+</p>
 
           {/* CONTRACT */}
           <div className="mt-7 bg-black/50 backdrop-blur-xl border border-purple-500/30 shadow-xl rounded-xl p-4 max-w-md">
@@ -104,7 +124,7 @@ const Home = () => {
               className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-7 py-3 rounded-xl font-bold shadow-lg transition"
             >
               <Rocket className="w-5 h-5" />
-              Buy Now
+              Explore Project
             </a>
 
             <a
@@ -135,6 +155,7 @@ const Home = () => {
             src="/albertII.png"
             alt="SpaceMonkey"
             className="w-[360px] md:w-[420px] rounded-xl shadow-[0_0_45px_rgba(168,85,247,0.7)]"
+            style={{ animation: "floatSpace 5s ease-in-out infinite" }}
           />
         </div>
       </div>
