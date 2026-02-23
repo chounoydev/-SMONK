@@ -74,15 +74,16 @@ const About = () => {
         </h2>
 
         <p className="text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-          SpaceMonkey ($SMONK) is a community-driven memecoin inspired by the first monkey to reach space. Built for explorers, dreamers, and meme lovers, SpaceMonkey represents humanity’s curiosity, creativity, and spirit of discovery.
-
-Our goal is to build an open, decentralized community ecosystem powered by memes, culture, and collaboration — without venture capital, without insiders, and without centralized control.
+         SpaceMonkey ($SMONK) is a community-driven memecoin inspired by the spirit of exploration and creativity. 
+         Built around transparency, fairness, and open participation, 
+         the project focuses on long-term community growth rather than short-term hype.
         </p>
 
         <p className="text-gray-400 mb-20 max-w-3xl mx-auto leading-relaxed">
-          Our goal is to build a powerful decentralized ecosystem fueled by memes,
-          culture, and unstoppable community momentum — without venture capital,
-          without insiders, and without centralized control.
+          There is no venture capital, no private allocations, and no insider advantages. 
+          SpaceMonkey is launched fairly and guided by its community, encouraging collaboration, creativity,
+           and responsible development.
+           The goal is to build a sustainable and open ecosystem shaped by shared ideas and continuous improvement.
         </p>
 
         {/* CARDS */}
