@@ -33,19 +33,19 @@ const About = () => {
     {
       title: "Space Narrative",
       description:
-        "Inspired by the first monkey in space and the eternal dream of the moon.",
+        "Inspired by the first monkey in space and humanity’s fascination with exploration.",
       icon: Rocket,
     },
     {
       title: "Meme Powered",
       description:
-        "Designed for virality, community creativity, and cultural momentum.",
+        "Designed for creativity, cultural expression, and community engagement.",
       icon: Sparkles,
     },
     {
       title: "Global Vision",
       description:
-        "Aiming to become a globally recognized Web3 meme brand.",
+        "Working toward becoming a globally recognized Web3 meme brand.",
       icon: Globe,
     },
   ];
@@ -74,10 +74,9 @@ const About = () => {
         </h2>
 
         <p className="text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-          SpaceMonkey ($SMONK) is a community-driven memecoin inspired by the first
-          monkey to reach space. Built for explorers, dreamers, and meme lovers,
-          SpaceMonkey represents humanity’s endless pursuit of innovation, freedom,
-          and discovery.
+          SpaceMonkey ($SMONK) is a community-driven memecoin inspired by the first monkey to reach space. Built for explorers, dreamers, and meme lovers, SpaceMonkey represents humanity’s curiosity, creativity, and spirit of discovery.
+
+Our goal is to build an open, decentralized community ecosystem powered by memes, culture, and collaboration — without venture capital, without insiders, and without centralized control.
         </p>
 
         <p className="text-gray-400 mb-20 max-w-3xl mx-auto leading-relaxed">
