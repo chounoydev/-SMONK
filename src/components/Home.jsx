@@ -120,7 +120,7 @@ const Home = () => {
           {/* BUTTONS */}
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="#"
+              href="#token"
               className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-7 py-3 rounded-xl font-bold shadow-lg transition"
             >
               <Rocket className="w-5 h-5" />
