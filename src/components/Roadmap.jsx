@@ -1,50 +1,50 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Map, Rocket, TrendingUp, Cpu, Globe2 } from "lucide-react";
+import { Map, Rocket, Users, Cpu, Globe2 } from "lucide-react";
 
 const Roadmap = () => {
   const roadmap = [
     {
       phase: "Phase 1",
-      title: "Launch & Setup",
+      title: "Launch & Basics",
       icon: Rocket,
       items: [
         "Fair token launch",
-        "Website deployment",
-        "Brand identity setup",
-        "Community channels launch",
+        "Website release",
+        "Project branding setup",
+        "Community group creation",
       ],
     },
     {
       phase: "Phase 2",
-      title: "Growth & Visibility",
-      icon: TrendingUp,
+      title: "Community Growth",
+      icon: Users,
       items: [
-        "Organic community growth",
-        "Strategic marketing campaigns",
-        "Listing on CoinGecko",
-        "Listing on CoinMarketCap",
+        "Grow the community naturally",
+        "Share updates and content",
+        "Listen to community feedback",
+        "Apply to token tracking platforms",
       ],
     },
     {
       phase: "Phase 3",
-      title: "Utility & Development",
+      title: "Build & Improve",
       icon: Cpu,
       items: [
-        "Platform feature development",
-        "Ecosystem utility expansion",
-        "Partnership exploration",
-        "Performance and security optimization",
+        "Improve website and tools",
+        "Explore useful features",
+        "Security improvements",
+        "Performance optimization",
       ],
     },
     {
       phase: "Phase 4",
-      title: "Long-Term Vision",
+      title: "Long-Term Direction",
       icon: Globe2,
       items: [
-        "Product scaling",
-        "Governance and community participation",
-        "Sustainable growth strategies",
-        "Global brand expansion",
+        "Community voting and ideas",
+        "Project improvements",
+        "Partnership discussions",
+        "CEX listing exploration",
       ],
     },
   ];
@@ -85,12 +85,12 @@ const Roadmap = () => {
         <div className="flex items-center justify-center gap-3 mb-3 text-purple-400">
           <Map size={20} className="animate-pulse" />
           <p className="tracking-widest font-semibold text-sm">
-            PROJECT ROADMAP
+            ROADMAP
           </p>
         </div>
 
         <h2 className="text-4xl md:text-5xl font-bold mb-20 text-white text-center">
-          Development Timeline
+          Simple Project Plan
         </h2>
 
         {/* Timeline */}
