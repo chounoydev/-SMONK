@@ -1,50 +1,50 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Map, Rocket, Users, Cpu, Globe2 } from "lucide-react";
+import { Map, Rocket, Users, Cpu, Globe2, Image } from "lucide-react";
 
 const Roadmap = () => {
   const roadmap = [
     {
       phase: "Phase 1",
-      title: "Launch & Basics",
+      title: "Launch & Foundation",
       icon: Rocket,
       items: [
-        "Fair token launch",
-        "Website release",
-        "Project branding setup",
-        "Community group creation",
+        "Fair and transparent public launch",
+        "Official website and community channels",
+        "Core branding and identity setup",
+        "Transparent communication with community",
       ],
     },
     {
       phase: "Phase 2",
-      title: "Community Growth",
-      icon: Users,
+      title: "Community Growth & NFT Vision",
+      icon: Image,
       items: [
-        "Grow the community naturally",
-        "Share updates and content",
-        "Listen to community feedback",
-        "Apply to token tracking platforms",
+        "Community-driven NFT concept exploration",
+        "Digital collectibles aligned with SpaceMonkey theme",
+        "Creative NFT utility ideas based on community input",
+        "Organic ecosystem development",
       ],
     },
     {
       phase: "Phase 3",
-      title: "Build & Improve",
-      icon: Cpu,
+      title: "Development & Expansion",
+      icon: Users,
       items: [
-        "Improve website and tools",
-        "Explore useful features",
-        "Security improvements",
-        "Performance optimization",
+        "Community engagement initiatives",
+        "Platform improvements and feature enhancements",
+        "NFT ecosystem integration (if pursued)",
+        "Long-term growth strategies",
       ],
     },
     {
       phase: "Phase 4",
-      title: "Long-Term Direction",
+      title: "Exchange & Ecosystem Vision",
       icon: Globe2,
       items: [
-        "Community voting and ideas",
-        "Project improvements",
-        "Partnership discussions",
-        "CEX listing exploration",
+        "Exploration of exchange listing opportunities",
+        "Compliance and readiness preparation",
+        "Partnership and ecosystem development",
+        "Sustainable long-term growth",
       ],
     },
   ];
@@ -81,7 +81,7 @@ const Roadmap = () => {
         className={`max-w-6xl w-full transition-all duration-1000 ease-out
         ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-14"}`}
       >
-        {/* Header */}
+        {/* HEADER */}
         <div className="flex items-center justify-center gap-3 mb-3 text-purple-400">
           <Map size={20} className="animate-pulse" />
           <p className="tracking-widest font-semibold text-sm">
@@ -90,10 +90,10 @@ const Roadmap = () => {
         </div>
 
         <h2 className="text-4xl md:text-5xl font-bold mb-20 text-white text-center">
-          Simple Project Plan
+          Project Development Plan
         </h2>
 
-        {/* Timeline */}
+        {/* TIMELINE */}
         <div className="relative">
           <div className="hidden md:block absolute left-1/2 top-0 w-[2px] 
           bg-purple-500/30 h-full transform -translate-x-1/2"></div>
@@ -106,12 +106,10 @@ const Roadmap = () => {
                 <div
                   key={index}
                   className={`relative flex flex-col md:flex-row items-center ${
-                    index % 2 === 0
-                      ? "md:justify-start"
-                      : "md:justify-end"
+                    index % 2 === 0 ? "md:justify-start" : "md:justify-end"
                   }`}
                 >
-                  {/* Card */}
+                  {/* CARD */}
                   <div
                     className={`bg-white/10 backdrop-blur-xl border border-purple-500/30 
                     rounded-3xl shadow-xl p-8 w-full md:w-5/12 ${
@@ -143,7 +141,7 @@ const Roadmap = () => {
                     </ul>
                   </div>
 
-                  {/* Timeline Number */}
+                  {/* TIMELINE NUMBER */}
                   <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 
                   bg-purple-600 text-white w-10 h-10 rounded-full 
                   items-center justify-center font-bold shadow-xl">
