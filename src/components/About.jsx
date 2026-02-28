@@ -25,27 +25,27 @@ const About = () => {
 
   const aboutCards = [
     {
-      title: "Community Owned",
+      title: "Community Focused",
       description:
-        "100% driven by holders with transparent governance and collective growth.",
+        "Built with open participation in mind, SpaceMonkey encourages collaboration, feedback, and shared growth within its community.",
       icon: Users,
     },
     {
-      title: "Space Narrative",
+      title: "Inspired by Exploration",
       description:
-        "Inspired by the first monkey in space and humanity’s fascination with exploration.",
+        "Drawing inspiration from humanity’s fascination with space, SpaceMonkey blends storytelling, creativity, and digital culture into a unique Web3 experience.",
       icon: Rocket,
     },
     {
-      title: "Meme Powered",
+      title: "Meme & Culture Driven",
       description:
-        "Designed for creativity, cultural expression, and community engagement.",
+        "Powered by creativity and online culture, the project promotes organic engagement and community-led expression.",
       icon: Sparkles,
     },
     {
-      title: "Global Vision",
+      title: "Sustainable Vision",
       description:
-        "Working toward becoming a globally recognized Web3 meme brand.",
+        "Focused on steady development, transparency, and long-term ecosystem growth rather than short-term hype.",
       icon: Globe,
     },
   ];
@@ -74,16 +74,19 @@ const About = () => {
         </h2>
 
         <p className="text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-         SpaceMonkey ($SMONK) is a community-driven memecoin inspired by the spirit of exploration and creativity. 
-         Built around transparency, fairness, and open participation, 
-         the project focuses on long-term community growth rather than short-term hype.
+          SpaceMonkey ($SMONK) is a community-focused meme token built on Solana,
+          inspired by exploration, creativity, and digital culture. The project
+          aims to foster transparent communication, open participation, and
+          organic community growth within the Web3 ecosystem.
         </p>
 
         <p className="text-gray-400 mb-20 max-w-3xl mx-auto leading-relaxed">
-          There is no venture capital, no private allocations, and no insider advantages. 
-          SpaceMonkey is launched fairly and guided by its community, encouraging collaboration, creativity,
-           and responsible development.
-           The goal is to build a sustainable and open ecosystem shaped by shared ideas and continuous improvement.
+          Designed with fairness in mind, SpaceMonkey plans to launch publicly
+          without private sales or early-access advantages. The focus is on
+          building a collaborative environment where ideas, engagement, and
+          responsible development help shape the direction of the project over time.
+          Rather than relying on short-term hype, the goal is to support steady,
+          sustainable growth driven by its community.
         </p>
 
         {/* CARDS */}
