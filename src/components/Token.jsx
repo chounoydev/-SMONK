@@ -54,7 +54,7 @@ const Token = () => {
       icon: Globe,
     },
     {
-      label: "Transaction Fees",
+      label: "Token Tax",
       value: "0% Buy / 0% Sell",
       icon: Percent,
     },
