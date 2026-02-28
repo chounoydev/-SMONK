@@ -6,25 +6,25 @@ const Features = () => {
     {
       title: "Community Powered",
       description:
-        "Built by the community, for the community. Every member contributes ideas, creativity, and shared direction to help shape the project.",
+        "SpaceMonkey grows through open collaboration and shared ideas. Every participant contributes creativity and engagement to help shape the project’s direction over time.",
       icon: Users,
     },
     {
       title: "Fast & Efficient on Solana",
       description:
-        "Developed on Solana to enable fast transactions, low fees, and a smooth on-chain experience accessible to everyone.",
+        "Built on the Solana blockchain to enable fast transactions and low network fees, providing a smooth and accessible on-chain experience for all users.",
       icon: Zap,
     },
     {
       title: "Creative Growth",
       description:
-        "Driven by meme culture, storytelling, and community-led content to inspire organic engagement across social platforms.",
+        "Inspired by digital culture and meme-driven creativity, encouraging organic expression and long-term community participation.",
       icon: Rocket,
     },
     {
-      title: "Transparent Token Design",
+      title: "Transparent Vision",
       description:
-        "A fixed supply model with locked liquidity and transparent mechanics designed to promote fairness, clarity, and long-term sustainability.",
+        "Designed with a fairness-first approach. Project details and transparency information will be shared at launch to promote openness and long-term community trust.",
       icon: Gem,
     },
   ];
@@ -72,8 +72,8 @@ const Features = () => {
         </h2>
 
         <p className="text-gray-400 mb-20 max-w-2xl mx-auto">
-          A space-inspired, community-driven memecoin blending creativity,
-          culture, and open collaboration.
+          A space-inspired project blending creativity, community participation,
+          and transparent development within the Web3 ecosystem.
         </p>
 
         {/* FEATURE CARDS */}
