@@ -152,7 +152,7 @@ const Home = () => {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="smonk.jpg"
+            src="smonk1.jpg"
             alt="SpaceMonkey"
             className="w-[360px] md:w-[420px] rounded-xl shadow-[0_0_45px_rgba(168,85,247,0.7)]"
             style={{ animation: "floatSpace 5s ease-in-out infinite" }}
@@ -164,5 +164,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
