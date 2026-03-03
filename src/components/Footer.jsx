@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center gap-4 mb-4">
             <img
-              src="/albertII.png"
+              src="smonk.jpg"
               alt="SpaceMonkey Logo"
               className="w-12 h-12 rounded-full object-cover border border-gray-300"
             />
@@ -103,3 +103,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
