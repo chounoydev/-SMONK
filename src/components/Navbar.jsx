@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <div className="w-11 h-11 rounded-full overflow-hidden border border-purple-500/40 shadow-md bg-black flex items-center justify-center">
             <img
-              src="smonk.jpg"
+              src="smonk1.jpg"
               alt="SpaceMonkey Logo"
               className="w-full h-full object-cover"
             />
@@ -69,5 +69,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
