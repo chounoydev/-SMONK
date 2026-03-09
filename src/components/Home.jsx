@@ -63,7 +63,7 @@ const Home = () => {
             style={{ animation: "slowBlink 3s ease-in-out infinite" }}
           >
             <Rocket className="w-4 h-4" />
-            100% COMMUNITY DRIVEN
+             COMMUNITY DRIVEN
           </span>
 
           <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
@@ -169,4 +169,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
