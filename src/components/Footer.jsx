@@ -46,7 +46,7 @@ const Footer = () => {
 
             {/* TIKTOK ADDED */}
             <a
-              href="https://www.tiktok.com/search?q=thedev2026&t=1773071243130"
+              href="https://www.tiktok.com/@thedev2026"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition"
@@ -113,3 +113,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
