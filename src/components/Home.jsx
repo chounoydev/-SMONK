@@ -128,7 +128,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://t.me/smonk2026"
+              href="https://t.me/Spacemonkeysmonk"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-7 py-3 rounded-xl font-bold shadow-lg transition"
@@ -164,6 +164,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
