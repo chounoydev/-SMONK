@@ -1,6 +1,6 @@
 import React from "react";
 import { Send } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -43,11 +43,21 @@ const Footer = () => {
             >
               <FaXTwitter className="w-4 h-4 text-gray-700" />
             </a>
+
+            {/* TIKTOK ADDED */}
+            <a
+              href="https://www.tiktok.com/search?q=thedev2026&t=1773071243130"
+              target="_blank"
+              rel="noreferrer"
+              className="w-9 h-9 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition"
+            >
+              <FaTiktok className="w-4 h-4 text-gray-700" />
+            </a>
           </div>
         </div>
 
         {/* RIGHT SIDE - QUICK LINKS */}
-        <div className="md:text-right">
+        <div className="flex flex-col items-center text-center">
           <h3 className="text-gray-900 font-semibold mb-4">
             Quick Links
           </h3>
@@ -103,6 +113,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
