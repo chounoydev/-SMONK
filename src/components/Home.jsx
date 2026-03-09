@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Rocket, Copy, Check, Send } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 const Home = () => {
   const ref = useRef();
@@ -63,7 +63,7 @@ const Home = () => {
             style={{ animation: "slowBlink 3s ease-in-out infinite" }}
           >
             <Rocket className="w-4 h-4" />
-            COMMUNITY DRIVEN
+            100% COMMUNITY DRIVEN
           </span>
 
           <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
@@ -72,14 +72,14 @@ const Home = () => {
           </h1>
 
           <p className="mt-6 text-lg text-gray-300 max-w-xl">
-  The first monkey who reached space is back — now as a community-driven digital project.
-  SpaceMonkey blends cosmic adventure, creativity, and meme culture into a fun,
-  collaborative experience powered entirely by its community.
-</p>
+            The first monkey who reached space is back — now as a community-driven digital project.
+            SpaceMonkey blends cosmic adventure, creativity, and meme culture into a fun,
+            collaborative experience powered entirely by its community.
+          </p>
 
-<p className="mt-2 text-sm text-gray-400">
-  Open-source mindset. Transparent development. Community-led direction.
-</p>
+          <p className="mt-2 text-sm text-gray-400">
+            Open-source mindset. Transparent development. Community-led direction.
+          </p>
 
           {/* CONTRACT */}
           <div className="mt-7 bg-black/50 backdrop-blur-xl border border-purple-500/30 shadow-xl rounded-xl p-4 max-w-md">
@@ -119,12 +119,17 @@ const Home = () => {
 
           {/* BUTTONS */}
           <div className="mt-8 flex flex-wrap gap-4">
+
+            {/* TIKTOK BUTTON */}
             <a
-              href="#token"
-              className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-7 py-3 rounded-xl font-bold shadow-lg transition"
+              href="https://tiktok.com"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 px-7 py-3 rounded-xl font-bold shadow-lg text-white transition
+              bg-gradient-to-r from-[#25F4EE] via-black to-[#FE2C55] hover:scale-105"
             >
-              <Rocket className="w-5 h-5" />
-              Explore Project
+              <FaTiktok className="w-5 h-5 text-white" />
+              TikTok
             </a>
 
             <a
@@ -164,7 +169,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
-
