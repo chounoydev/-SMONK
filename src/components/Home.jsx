@@ -122,7 +122,7 @@ const Home = () => {
 
             {/* TIKTOK BUTTON */}
             <a
-              href="https://www.tiktok.com/search?q=thedev2026&t=1773071243130"
+              href="https://www.tiktok.com/@thedev2026"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-7 py-3 rounded-xl font-bold shadow-lg text-white transition
@@ -169,5 +169,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
