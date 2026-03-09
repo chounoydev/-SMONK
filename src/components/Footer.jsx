@@ -27,7 +27,7 @@ const Footer = () => {
           {/* SOCIAL ICONS */}
           <div className="flex gap-3 mt-5">
             <a
-              href="https://t.me/smonk2026"
+              href="https://t.me/Spacemonkeysmonk"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 rounded-full bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition"
@@ -103,5 +103,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
