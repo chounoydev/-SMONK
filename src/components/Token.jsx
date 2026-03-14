@@ -122,7 +122,7 @@ const Token = () => {
         {/* BUY BUTTON */}
         <div className="mt-12">
           <a
-            href="https://pump.fun/coin/37JPyFUgQNG9jd1JGevtJ5xYfRYpqKYpUsuPaVG7pump"
+            href="https://pump.fun/coin/5HFFYSvLYowtZRyjS1MWyE2aNWe96wEniatYBYm4pump"
             className="inline-flex items-center gap-3 bg-purple-600 hover:bg-purple-700 
             text-white font-bold px-12 py-4 rounded-full shadow-lg 
             transition duration-300 hover:scale-105"
