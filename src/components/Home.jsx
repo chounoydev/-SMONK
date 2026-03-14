@@ -5,7 +5,7 @@ import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 const Home = () => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
-  const contractAddress = "LOADING....";
+  const contractAddress = "37JPyFUgQNG9jd1JGevtJ5xYfRYpqKYpUsuPaVG7pump";
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
