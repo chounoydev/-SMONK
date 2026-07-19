@@ -53,7 +53,7 @@ const CallToAction = () => {
         {/* Buttons */}
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="https://x.com/i/communities/2010053728234266781"
+            href="https://t.me/+pIsP2WNowKg1ZjU1"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-2 
