@@ -122,7 +122,7 @@ const Home = () => {
 
 
             <a
-              href="https://t.me/Spacemonkeysmonk"
+              href="https://t.me/+pIsP2WNowKg1ZjU1"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-7 py-3 rounded-xl font-bold shadow-lg transition"
@@ -132,7 +132,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://x.com/Thedev2026"
+              href="https://x.com/SpaceMonkeypump"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-black px-7 py-3 rounded-xl font-bold shadow-lg transition"
