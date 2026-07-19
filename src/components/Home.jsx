@@ -5,7 +5,7 @@ import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 const Home = () => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
-  const contractAddress = "#";
+  const contractAddress = "";
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -120,17 +120,6 @@ const Home = () => {
           {/* BUTTONS */}
           <div className="mt-8 flex flex-wrap gap-4">
 
-            {/* TIKTOK BUTTON */}
-            <a
-              href="https://www.tiktok.com/@thedev2026"
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-2 px-7 py-3 rounded-xl font-bold shadow-lg text-white transition
-              bg-gradient-to-r from-[#25F4EE] via-black to-[#FE2C55] hover:scale-105"
-            >
-              <FaTiktok className="w-5 h-5 text-white" />
-              TikTok
-            </a>
 
             <a
               href="https://t.me/Spacemonkeysmonk"
